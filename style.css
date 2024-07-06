@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #625c5c;
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+    height: 100vh;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0,0%,20%);
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: #3d3232;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
